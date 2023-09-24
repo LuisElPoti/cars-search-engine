@@ -17,7 +17,7 @@ model auto {
   modelo           String    @db.VarChar(80)
   estado           String    @db.VarChar(80)
   year             Int       
-  precio           Decimal   @db.Decimal(10, 2)
+  precio           Int   
   color_exterior   String    @db.VarChar(80)
   color_interior   String    @db.VarChar(80)
   combustible      String    @db.VarChar(80)
